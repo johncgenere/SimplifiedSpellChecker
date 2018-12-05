@@ -4,7 +4,7 @@ takes std::set or std::unordered_set to do such operation.
 
 # How to Run
 This program accepts two command-line argument. The first argument is a name of plain-text file with a text to check. The
-second argument is a plain-text file with the list of correct words; this is the dictionary of your spell checker.
+second argument is a plain-text file with the list of correct words; this is the dictionary of your spell checker. Compile with -std=c++11.
 
 # What it Does
 The program will create a text file where each line contains the wrong word from the checked text and the suggestions how to
